@@ -1,0 +1,7 @@
+var config = {
+    apiKey: "AIzaSyCuUkFf4CPlx0kHxG4QCwdRl8bPGaA0sTs",
+    authDomain: "tempo-ideal.firebaseapp.com",
+    databaseURL: "https://tempo-ideal-default-rtdb.firebaseio.com",
+    storageBucket: "tempo-ideal.appspot.com",
+};
+firebase.initializeApp(config);

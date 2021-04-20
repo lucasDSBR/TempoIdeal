@@ -1,0 +1,105 @@
+
+var tempumi = firebase.database().ref('Temperatura' + 'Umidade' + 'Sensacao Termica: ');
+var valor1 = document.getElementById('valor1');
+var valor1 = document.getElementById('valor2');
+var icon = document.getElementById('iconstatus');
+
+
+
+firebase.database().ref('Temperatura: ').on('value', function (snapshot) {
+    valorTempok = snapshot.val();
+    document.getElementById('valor1').innerHTML = valorTempok;
+
+
+    firebase.database().ref('Umidade: ').on('value', function (snapshot) {
+        valorUmiok = snapshot.val();
+        document.getElementById('valor2').innerHTML = valorUmiok;
+        
+    	    firebase.database().ref('Sensação Térmica: ').on('value', function (snapshot) {
+	    	    valorSens = snapshot.val();
+	    	 	
+
+	    	    switch (valorSens) {
+
+	    	    	case 38:
+	    	    		console.log('SOL')
+	    	    		var img = document.createElement("IMG");
+	    	    		img.src = "Sol.png";
+	    	    		img.style.width = "50px";
+	    	    		img.style.height = "50px";
+	    	    		document.getElementById('iconstatus').appendChild(img);
+	    	    		break;
+	    	    	case 37:
+	    	    		console.log('SOL')
+	    	    		var img = document.createElement("IMG");
+	    	    		img.src = "Sol.png";
+	    	    		img.style.width = "50px";
+	    	    		img.style.height = "50px";
+	    	    		document.getElementById('iconstatus').appendChild(img);
+	    	    		break;
+	    	    	case 36:
+	    	    		console.log('Nublado')
+	    	    		var img = document.createElement("IMG");
+	    	    		img.src = "Nublado.png";
+	    	    		img.style.width = "50px";
+	    	    		img.style.height = "50px";
+	    	    		document.getElementById('iconstatus').appendChild(img);
+	    	    		break;
+	    	    	case 35:
+	    	    		console.log('Nublado')
+	    	    		var img = document.createElement("IMG");
+	    	    		img.src = "Nublado.png";
+	    	    		img.style.width = "50px";
+	    	    		img.style.height = "50px";
+	    	    		document.getElementById('iconstatus').appendChild(img);
+	    	    		break;
+	    	    	case 34:
+	    	    		console.log('Chuva')
+	    	    		var img = document.createElement("IMG");
+	    	    		img.src = "Chuva.png";
+	    	    		img.style.width = "50px";
+	    	    		img.style.height = "50px";
+	    	    		document.getElementById('iconstatus').appendChild(img);
+	    	    		break;
+	    	    	case 32:
+	    	    		console.log('Chuva')
+	    	    		var img = document.createElement("IMG");
+	    	    		img.src = "Chuva.png";
+	    	    		img.style.width = "50px";
+	    	    		img.style.height = "50px";
+	    	    		document.getElementById('iconstatus').appendChild(img);
+	    	    		break;
+	    	    	default:
+        				console.log('ERRO NO TEMPO');
+        				break;
+	    	    }
+	    	    /*
+	    	    if (valorSens >= 38.0) {
+	    	    	//sol
+	    	    	console.log('SOL')
+	    	    	var img = document.createElement("IMG");
+	    	    	img.src = "Sol.png";
+	    	    	img.style.width = "50px";
+	    	    	img.style.height = "50px";
+	    	    	document.getElementById('iconstatus').appendChild(img);
+	    	    	
+	    	    }
+	    	    else if (valorSens >= 34.0 && valorSens <= 38.0) {
+	    	    	//nublado
+	    	    	console.log('NUBLADO')
+	    	    }
+	    	    else {
+	    	    	//chuva
+	    	    	console.log('CHUVA')
+	    	    }
+				*/
+
+	    	 	console.log(valorSens)
+    	    	console.log(valorTempok)
+    	    	console.log(valorUmiok)
+    	});
+    });
+});
+
+
+
