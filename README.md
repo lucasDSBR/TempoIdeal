@@ -2,6 +2,11 @@
 ### Projeto de uma estação meteorológica usando C++, Esp8266, JavaScrip, Firebase e Kodular.
 #### by: Francisco Ivanilson, João Gabriel, Lucas Silva
 
+### APRESENTAÇÃO DO PROJETO:
+
+https://user-images.githubusercontent.com/77994612/115418701-12772600-a1d0-11eb-8bed-6c908e9eb0c7.mp4
+
+
 ## 1. O PRODUTO: 
 Estação Meteorológica WI-FI.
 	
@@ -153,3 +158,8 @@ Desenvolvido por Francisco Ivanilson, Kodular e Firebase.
 ![image](https://user-images.githubusercontent.com/77994612/115409680-5c5c0e00-a1c8-11eb-9ff2-d6dc43dc58d5.png)
 
 Desenvolvido por João Gabrie, GrabCad.
+
+
+
+
+
