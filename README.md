@@ -1,6 +1,6 @@
 # Tempo Ideal
 ### Projeto de uma estação meteorológica usando C++, Esp8266, JavaScrip, Firebase e Kodular.
-##COLABORADORES: Francisco Ivanilson, João Gabriel, Lucas Silva
+## COLABORADORES: Francisco Ivanilson, João Gabriel, Lucas Silva
 
 ## 1. O PRODUTO: 
 Estação Meteorológica WI-FI.
