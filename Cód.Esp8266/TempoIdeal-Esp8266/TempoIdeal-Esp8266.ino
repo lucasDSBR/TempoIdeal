@@ -12,10 +12,10 @@
 DHTesp dht;
 
 //#define FPM_SLEEP_MAX_TIME           0xFFFFFFF
-#define WIFI_SSID "WALL-E"
-#define WIFI_PASSWORD "Ba0bEc7c9b0f07a608a2ba962$3f903d"
-#define FIREBASE_HOST "tempo-ideal-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "oA3oAkWSmJzCvJMZ8Fs8hTtUlpi0mtUaWD9aEikQ"
+#define WIFI_SSID "ID"
+#define WIFI_PASSWORD "Password"
+#define FIREBASE_HOST "HOST"
+#define FIREBASE_AUTH "HASH"
 
 FirebaseData fbdo;
 void setup() 
