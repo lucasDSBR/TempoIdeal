@@ -47,7 +47,9 @@ Esse módulo servirá para carregar a bateria que fornecerá energia aos compone
 			
 | Características| Dimensões                 | Preço |
 | -------------  |:-------------:            | -----:|
-| TP4056         | 19MM(L) X 5MM(A) X 25MM(C)|  $6  |
+| TP4056         | 19MM(L) X 5MM(A) X 25MM(C)|  $6   |
+
+![image](https://user-images.githubusercontent.com/77994612/115409944-99280500-a1c8-11eb-906a-dbd8d5533130.png)
 
 ## 4. ESQUEMA ELÉTRICO:
 ![image](https://user-images.githubusercontent.com/77994612/115403740-15b7e500-a1c3-11eb-9c79-f588c7aa0fad.png)
