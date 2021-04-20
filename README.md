@@ -143,3 +143,11 @@ Desenvolvido por Lucas Silva, JavaScrip e Firebase.
 [APP ANDROID.zip](https://github.com/Enkiduzis/TempoIdeal/files/6343991/APP.ANDROID.zip)
 
 Desenvolvido por Francisco Ivanilson, Kodular e Firebase.
+
+## 8. CASE PARA HARDWARE:
+
+![image](https://user-images.githubusercontent.com/77994612/115409542-38003180-a1c8-11eb-85b9-d9bd36bb37ec.png)
+![image](https://user-images.githubusercontent.com/77994612/115409608-49e1d480-a1c8-11eb-9904-d42d2eab9b0c.png)
+![image](https://user-images.githubusercontent.com/77994612/115409680-5c5c0e00-a1c8-11eb-9ff2-d6dc43dc58d5.png)
+
+Desenvolvido por João Gabrie, GrabCad.
