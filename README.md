@@ -1,5 +1,5 @@
 # Tempo Ideal
-### Projeto de uma estação meteorológica usando C++, Esp8266, JavaScrip, Firebase e Kodular.
+### Projeto de uma estação meteorológica usando C++, Esp8266, HTML, Bootstrap, JavaScrip, Firebase e Kodular.
 #### by: Francisco Ivanilson, João Gabriel, Lucas Silva
 
 ### APRESENTAÇÃO DO PROJETO:
